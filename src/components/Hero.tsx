@@ -21,9 +21,7 @@ export function Hero() {
           <p className="text-xl mb-8 leading-relaxed bg-black/50 rounded">
             Discover the perfect blend of artisan coffee, cozy atmosphere, and
             exceptional (self-)service. From single-origin espresso to
-            handcrafted specialty drinks.
-            <br />
-            Feel it like a HOME!
+            handcrafted specialty drinks. Feel like HOME!
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="bg-amber-600 hover:bg-amber-700">
