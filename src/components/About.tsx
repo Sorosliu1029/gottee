@@ -25,7 +25,7 @@ export function About() {
           
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1663141214785-4dad16507ea2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJpc3RhJTIwbWFraW5nJTIwY29mZmVlfGVufDF8fHx8MTc1NTI0NzA2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="https://images.unsplash.com/photo-1595928642581-f50f4f3453a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
               alt="Barista making coffee"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />

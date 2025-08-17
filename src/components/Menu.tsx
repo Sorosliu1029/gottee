@@ -82,21 +82,27 @@ const menuItems: MenuItem[] = [
     isRemoved: true,
   },
   {
-    name: "Coffee Making",
+    name: "Coffee Making Teaching",
     description: "Learn the art of brewing coffee with the host",
     price: "FREE",
-    category: "Teaching",
+    category: "Others",
   },
   {
-    name: "CS Related",
+    name: "CS Related Consultation",
     description: "Consult Computer Science topics/problems with the host",
     price: "$20/h",
-    category: "Teaching",
+    category: "Others",
+  },
+  {
+    name: "Bike Repair Service",
+    description: "Fix your bike with the host's expertise",
+    price: "$30/h",
+    category: "Others",
   },
 ];
 
 export function Menu() {
-  const categories = ["Milk Coffee", "Black Coffee", "Teaching"];
+  const categories = ["Milk Coffee", "Black Coffee", "Others"];
 
   return (
     <section id="menu" className="py-20 bg-gray-50">

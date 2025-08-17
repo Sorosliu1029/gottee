@@ -9,17 +9,16 @@ export function Hero() {
           alt="Coffee shop interior"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
 
       <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
         <div className="text-white max-w-2xl">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-black/20 rounded">
             Premium coffee
             <br />
             <span className="text-amber-400">by GT students</span>
           </h1>
-          <p className="text-xl mb-8 leading-relaxed">
+          <p className="text-xl mb-8 leading-relaxed bg-black/50 rounded">
             Discover the perfect blend of artisan coffee, cozy atmosphere, and
             exceptional (self-)service. From single-origin espresso to
             handcrafted specialty drinks.
@@ -34,8 +33,7 @@ export function Hero() {
             </Button>
             <Button
               size="lg"
-              variant="outline"
-              className="text-white border-white hover:bg-white hover:text-black"
+              className="bg-amber-600 hover:bg-amber-700"
             >
               <a href="#contact" className="w-full sm:w-auto">
                 Visit Us
