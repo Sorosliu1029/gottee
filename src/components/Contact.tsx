@@ -1,4 +1,10 @@
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+} from "./ui/card";
 import { MapPin, Phone, Clock, Mail } from "lucide-react";
 
 export function Contact() {
@@ -20,21 +26,24 @@ export function Contact() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-300">
-                123 Coffee Street<br />
-                Downtown District<br />
-                City, State 12345
+                Modera Midtown
+                <br />
+                95 8th St NW
+                <br />
+                Atlanta, Georgia 30309
               </p>
             </CardContent>
           </Card>
 
-          <Card className="bg-gray-800 border-gray-700 text-center">
+          <Card className="hidden bg-gray-800 border-gray-700 text-center">
             <CardHeader>
               <Phone className="w-8 h-8 text-amber-400 mx-auto mb-2" />
               <CardTitle className="text-white">Phone</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-gray-300">
-                (555) 123-BREW<br />
+                (555) 123-BREW
+                <br />
                 (555) 123-2739
               </p>
             </CardContent>
@@ -44,11 +53,13 @@ export function Contact() {
             <CardHeader>
               <Clock className="w-8 h-8 text-amber-400 mx-auto mb-2" />
               <CardTitle className="text-white">Hours</CardTitle>
+              <CardDescription className="text-gray-400">Better with appointments via email</CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-gray-300">
-                Mon-Fri: 6:00 AM - 8:00 PM<br />
-                Sat-Sun: 7:00 AM - 9:00 PM
+                Mon-Fri: 8:00 AM - 8:00 PM
+                <br />
+                Sat-Sun: 9:00 AM - 9:00 PM
               </p>
             </CardContent>
           </Card>
@@ -60,8 +71,9 @@ export function Contact() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-300">
-                hello@brewandbean.com<br />
-                orders@brewandbean.com
+                yang-liu@gatech.edu
+                <br />
+                soros.liu1029@gmail.com
               </p>
             </CardContent>
           </Card>
