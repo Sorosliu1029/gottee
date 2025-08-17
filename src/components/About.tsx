@@ -7,16 +7,11 @@ export function About() {
           <div>
             <h2 className="text-4xl font-bold text-gray-800 mb-6">Our Story</h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Founded in 2018, Brew & Bean started as a passion project to bring exceptional 
+              Founded in 2025, Gottee started as a passion project to bring exceptional 
               coffee to our community. We believe that great coffee brings people together and 
               creates moments worth savoring.
             </p>
-            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Our beans are sourced directly from sustainable farms around the world, ensuring 
-              both quality and ethical practices. Each cup is crafted by our skilled baristas 
-              who share our commitment to coffee excellence.
-            </p>
-            <div className="grid grid-cols-2 gap-8 mt-8">
+            <div className="hidden grid grid-cols-2 gap-8 mt-8">
               <div className="text-center">
                 <div className="text-3xl font-bold text-amber-800">15K+</div>
                 <div className="text-gray-600">Happy Customers</div>
