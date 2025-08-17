@@ -8,10 +8,10 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Coffee className="w-8 h-8 text-amber-400" />
-              <span className="text-2xl font-bold">Brew & Bean</span>
+              <span className="text-2xl font-bold">Gottee</span>
             </div>
             <p className="text-gray-400">
-              Crafting exceptional coffee experiences since 2018. 
+              Crafting exceptional coffee experiences since 2025. 
               Every cup tells a story.
             </p>
           </div>
@@ -26,7 +26,7 @@ export function Footer() {
             </ul>
           </div>
           
-          <div>
+          <div className="hidden">
             <h4 className="font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-amber-400 transition-colors">
@@ -43,7 +43,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Brew & Bean. All rights reserved.</p>
+          <p>&copy; 2025 ~ Now Gottee. All rights reserved.</p>
         </div>
       </div>
     </footer>
