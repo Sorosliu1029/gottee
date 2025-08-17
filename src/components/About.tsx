@@ -1,4 +1,3 @@
-import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function About() {
   return (
@@ -30,14 +29,14 @@ export function About() {
           </div>
           
           <div className="relative">
-            <ImageWithFallback
+            <img
               src="https://images.unsplash.com/photo-1663141214785-4dad16507ea2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJpc3RhJTIwbWFraW5nJTIwY29mZmVlfGVufDF8fHx8MTc1NTI0NzA2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
               alt="Barista making coffee"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg">
               <div className="flex items-center space-x-4">
-                <ImageWithFallback
+                <img
                   src="https://images.unsplash.com/photo-1650100458608-824a54559caa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBiZWFucyUyMGVzcHJlc3NvfGVufDF8fHx8MTc1NTM1NzE1NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                   alt="Coffee beans"
                   className="w-16 h-16 rounded-full object-cover"
