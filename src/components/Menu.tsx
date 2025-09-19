@@ -36,7 +36,7 @@ const menuItems: MenuItem[] = [
   {
     name: "Flat White",
     description: "Double shot espresso with silky steamed milk",
-    price: "$4.00",
+    price: "$3.00",
     category: "Milk Coffee",
   },
   {
