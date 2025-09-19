@@ -1,11 +1,5 @@
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-} from "./ui/card";
-import { MapPin, Phone, Clock, Mail } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { MapPin, Phone, Clock, CalendarHeart } from "lucide-react";
 
 export function Contact() {
   return (
@@ -53,7 +47,6 @@ export function Contact() {
             <CardHeader>
               <Clock className="w-8 h-8 text-amber-400 mx-auto mb-2" />
               <CardTitle className="text-white">Hours</CardTitle>
-              <CardDescription className="text-gray-400">Better with appointments via email</CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-gray-300">
@@ -66,15 +59,18 @@ export function Contact() {
 
           <Card className="bg-gray-800 border-gray-700 text-center">
             <CardHeader>
-              <Mail className="w-8 h-8 text-amber-400 mx-auto mb-2" />
-              <CardTitle className="text-white">Email</CardTitle>
+              <CalendarHeart className="w-8 h-8 text-amber-400 mx-auto mb-2" />
+              <CardTitle className="text-white">Appointment</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-300">
-                yang-liu@gatech.edu
-                <br />
-                soros.liu1029@gmail.com
-              </p>
+              <a
+                href="https://calendly.com/soros-liu/gottee-coffee-chat"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Schedule a visit via{" "}
+                <span className="text-amber-400  underline">Calendly</span>
+              </a>
             </CardContent>
           </Card>
         </div>

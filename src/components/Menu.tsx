@@ -69,10 +69,15 @@ const menuItems: MenuItem[] = [
   },
   {
     name: "Cold Brew",
-    description: "Smooth, naturally sweet coffee brewed cold for 24 hours",
-    price: "N/A",
+    description: "Smooth, naturally sweet (or bitter) coffee brewed cold for 24 hours",
+    price: "$2.00",
     category: "Black Coffee",
-    isRemoved: true,
+  },
+  {
+    name: "Pour Over",
+    description: "Hand-poured hot water over freshly ground coffee for a clean, vibrant cup",
+    price: "$4.00",
+    category: "Black Coffee",
   },
   {
     name: "Iced Latte",
